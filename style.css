@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .banner{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.banner .product{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: .7s;
+    --left: 0px;
+    display: flex;
+    cursor: pointer;
+}
+.banner .product .cola{
+    background: var(--url) var(--left),url(cola.png);
+    background-size: auto 100%;
+    aspect-ratio: 2/4;
+    width: 256px;
+    height: 450px;
+    background-blend-mode: multiply;
+    mask-image: url(cola.png);
+    mask-size: auto 100%;
+    transition: .7s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner .product:hover{
+    --left: -1000px;
+    transform: translateX(-50%) translateY(-120px);
+}
+.banner .product .cola:nth-child(2){
+    opacity: 0;
+}
+.banner .product:hover .cola:nth-child(2){
+    opacity: 1;
+} */
+header {
+  height: 70px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navigation {
+  width: 90%;
+}
+header .navigation ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  list-style: none;
+}
+header #resp-button {
+  display: none;
+  gap: 5px;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+header #resp-button .resp-menu {
+  width: 2px;
+  height: 25px;
+  background-color: white;
+}
+@media screen and (max-width: 768px) {
+  header .navigation ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    z-index: 10;
+    padding: 10px 0;
+    border-top: 1px solid white;
+  }
+
+  header .navigation ul.show {
+    display: flex;
+  }
+
+  header #resp-button {
+    display: flex;
+  }
+}
