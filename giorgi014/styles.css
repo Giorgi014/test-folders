@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+}
+
+#canvas{
+    border: 2px solid red;
+    margin-top: 150px;
+    margin-left: 430px;
+    background-color: black;
+}

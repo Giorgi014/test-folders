@@ -1,0 +1,292 @@
+/*CSS Document*/
+
+body{
+    background-color: rgb(0, 0, 121);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Algerian;
+}
+#header div ul li{
+    float: left;
+    list-style: none;
+}
+#nav {
+    margin-left: 29%;
+}
+#nav ul li a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 88);
+    width: 24vh;
+    height: 10vh;
+    line-height: 10vh;
+    transition: background-color 0.5s;
+}
+#nav ul li a:hover{
+    background-color: rgb(0, 0, 139);
+}
+
+
+
+/*Ad text*/
+
+
+#ad-text{
+    position: absolute;
+    color: white;
+    top: 11vh;
+    font-size: 2.5vh;
+    text-decoration: none;
+    width: 100%;
+    height: 2vh;
+    float: left;
+}
+
+/*ACTIVE*/
+
+
+
+#active a{
+    border-bottom: 3px solid red;
+}
+
+#logo {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 0, 65);
+}
+#slider img{
+    width: 100%;
+    margin-top: 5vh;
+}
+#active2 {
+    border-left: 2px solid red;
+}
+
+
+/*MENU LINKS*/
+
+
+#anim img{
+    position: absolute;
+}
+#pc{
+    z-index: 5;
+    width: 17vh;
+    top: 17.5vh;
+    left: 5vh; 
+    transition: width 0.5s;
+}
+#pc:hover{
+    width: 20vh; 
+}
+#pc2{
+    z-index: 1;
+    width: 41vh;
+    top: 17.3vh;
+    left: -10vh; 
+    transform: rotate(90deg);
+    transition: transform 0.5s , left 0.5s;
+}
+#pc2:hover{
+    transform: rotate(0deg);
+    left: 0vh;
+}
+#web{
+    z-index: 5;
+    width: 33vh;
+    top: 24.7vh;
+    left: 41.5vh; 
+    transition: width 0.5s;
+}
+#web:hover{
+    width: 37vh; 
+}
+#video{
+    z-index: 5;
+    position: absolute;
+    background-image: url(../img/anim/vdi.png);
+    background-size: 18vh;
+    background-repeat: no-repeat;
+    width: 18vh;
+    height: 18vh;
+    line-height: 18vh;
+    left: 90.2vh;
+    top: 22vh;
+    transition: background 0.5s;
+}
+#video:hover{
+    background-image: url(../img/anim/vdi2.png);
+}
+#photoshop{
+    z-index: 5;
+    position: absolute;
+    background-image: url(../img/anim/photo.png);
+    background-size: 34vh;
+    background-repeat: no-repeat;
+    width: 34vh;
+    height: 20vh;
+    line-height: 20vh;
+    left: 117.8vh;
+    top: 21vh;
+    transition: background 0.5s;
+}
+#photoshop:hover{
+    background-image: url(../img/anim/photo2.png);
+}
+#registration{
+    z-index: 5;
+    position: absolute;
+    background-image: url(../img/anim/reg.png);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+    width: 20vh;
+    height: 20vh;
+    line-height: 20vh;
+    left: 159.2vh;
+    top: 21vh;
+    transition: background 0.5s;
+}
+#registration:hover{
+    background-image: url(../img/anim/reg2.png);
+}
+#box{
+    z-index: 5;
+    position: absolute;
+    background-image: url(../img/anim/box2.png);
+    background-size: 19vh;
+    background-repeat: no-repeat;
+    width: 19vh;
+    height: 18vh;
+    line-height: 18vh;
+    left: 187.7vh;
+    top: 22.3vh;
+    transition: background 0.5s;
+}
+#box:hover{
+    background-image: url(../img/anim/box.png);
+}
+#phone{
+    z-index: 5;
+    width: 12.5vh;
+    top: 51vh;
+    left: 50vh; 
+    transition: width 0.5s;
+}
+#phone:hover{
+    width: 14vh; 
+}
+#flag{
+    z-index: 5;
+    width: 47.7vh;
+    top: 51.5vh;
+    left: 76.9vh; 
+    transition: width 0.5s;
+}
+#flag:hover{
+    width: 52vh; 
+}
+#amz{
+    z-index: 5;
+    width: 40vh;
+    top: 51.4vh;
+    left: 132.7vh; 
+    transition: width 0.5s;
+}
+#amz:hover{
+    width: 45vh; 
+}
+#virus{
+    position: absolute;
+    z-index: 5;
+    background-image: url(../img/anim/vrs2.png);
+    background-size: 21vh;
+    background-repeat: no-repeat;
+    width: 21vh;
+    height: 19vh;
+    line-height: 19vh;
+    left: 185vh;
+    top: 54vh;
+    transition: background 0.5s;
+}
+#virus:hover{
+    background-image: url(../img/anim/vrs.png);
+}
+#bs{
+    z-index: 5;
+    width: 23vh;
+    top: 75vh;
+    left: 2vh; 
+}
+#bs1{
+    z-index: 2;
+    width: 24vh;
+    top: 81.6vh;
+    left: 12vh; 
+    transition: left 0.5s;
+}
+#bs1:hover{
+    left: 20.7vh; 
+}
+
+
+/*DROP DOWN MENU*/
+
+#nav ul ul{
+    position: absolute;
+    width: 100px;
+    z-index: 99;
+}
+#nav ul ul li{
+    display: none;
+}
+#nav ul li:hover ul li{
+    display: block;
+}
+#nav ul ul li a{
+    display: inline-block;
+    text-align: center;
+    width: 24vh;
+    height: 6vh;
+    line-height: 5vh;
+    font-size: 2.3vh;
+    background-color: rgba(32, 32, 32, 0.699);
+}
+#nav ul ul li a:hover{
+    border-left: 2px solid red;
+    background-color: rgba(173, 0, 0, 0.699);
+}
+
+
+/*SUB-MENU*/
+
+
+#sub-menu{
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 5vh;
+    font-family: sans-serif;
+}
+#sub-menu li{
+    list-style: none;
+}
+#sub-menu a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(0, 0, 88);
+    color: white;
+    width: 21vh;
+    height: 3.9vh;
+    line-height: 3.9vh;
+    margin: 0.5vh;
+}
+#sub-menu a:hover{
+    background-color: rgb(0, 0, 139);
+    border-left: 2px solid red;
+}
